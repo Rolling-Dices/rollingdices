@@ -1,10 +1,20 @@
 import React from 'react';
+import StandardAlert from '../../components/Alerts/StandardAlert';
 
 import logo from './Logo.png'
 
 import './styles.css';
 
 export default class Login extends React.Component{
+  constructor() {
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit() {
+    return <StandardAlert />
+  }
+
   render() {
     return (
       <div>
@@ -39,7 +49,7 @@ export default class Login extends React.Component{
               />
               <label htmlFor="password">Lembrar senha ?</label>
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit" onSubmit={this.handleSubmit}>Entrar</button>
             <label>Ou</label>
             <button href="/login">Cadastre-se</button>
           </form>
