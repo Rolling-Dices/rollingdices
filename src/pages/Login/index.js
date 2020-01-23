@@ -41,8 +41,8 @@ export default class Login extends React.Component{
               />
               <label htmlFor="password">Lembrar senha ?</label>
             </div>
-            <button type="submit" onSubmit={this.handleClick}>Entrar</button>
-            <label>Ou</label>
+            <button type="submit">Entrar</button>
+            <h2>OU</h2>
             <button href="/login">Cadastre-se</button>
           </form>
         </div>
