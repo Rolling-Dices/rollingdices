@@ -1,13 +1,7 @@
-body {
-  overflow: hidden;
-}
-
-body {
-  overflow: hidden;
-}
 #logo {
-  margin: 30px auto;
+  margin: 0 auto;
   max-width: 320px;
+  padding: 40px 0;
 }
 
 #logo img {
@@ -25,7 +19,6 @@ body {
 }
 
 form .input-block label {
-  color: #d0ced9;
   font-size: 22px;
   display: block;
 }
@@ -35,8 +28,8 @@ form .input-block input {
   margin-top: 10px;
   width: 100%;
   font-size: 20px;
-  background: #201e27;
   color: #d0ced9;
+  background: #201e27;
   border: 0;
   border: 1px solid #d0ced9;
   border-radius: 5px;
@@ -63,23 +56,22 @@ form .input-group input {
 form button {
   text-decoration: none;
   width: 100%;
-  border: 0;
-  background: #d0ced9;
-  border-radius: 3px;
   padding: 15px 20px;
-  color: #201e27;
+  background: #d0ced9;
+  color: #24222c;
+  border: 0;
+  border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
   transition: background 0.5s;
 }
 
 form button:hover {
-  background: #4b475c;
+  background: #24222c;
+  color: #d0ced9;
 }
 
-form > label {
-  color: #d0ced9;
-  font-size: 20px;
+form h2 {
   font-weight: bold;
   display: block;
   text-align: center;
