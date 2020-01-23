@@ -40,7 +40,7 @@ export default class Login extends React.Component{
               <label htmlFor="password">Lembrar senha ?</label>
             </div>
             <button type="submit">Entrar</button>
-            <label>Ou</label>
+            <label>OU</label>
             <button href="/login">Cadastre-se</button>
           </form>
         </div>
