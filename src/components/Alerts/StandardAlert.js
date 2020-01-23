@@ -3,12 +3,12 @@ import { Snackbar } from '@material-ui/core';
 import { Alert, AlertTitle } from '@material-ui/lab';
 import { useState } from 'react';
 
-function StandardAlert(props) {
+function StandardAlert() {
     const [open, setOpenState] = useState(true);
 
     const handleClose = () => {
-        setOpenState(false);
-    };
+        setOpenState(false)
+    }
 
     return (
         <div>    

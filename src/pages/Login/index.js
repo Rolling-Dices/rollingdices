@@ -6,14 +6,6 @@ import logo from './Logo.png'
 import './styles.css';
 
 export default class Login extends React.Component{
-  constructor() {
-    super();
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleSubmit() {
-    return <StandardAlert />
-  }
 
   render() {
     return (
@@ -49,11 +41,12 @@ export default class Login extends React.Component{
               />
               <label htmlFor="password">Lembrar senha ?</label>
             </div>
-            <button type="submit" onSubmit={this.handleSubmit}>Entrar</button>
+            <button type="submit" onSubmit={this.handleClick}>Entrar</button>
             <label>Ou</label>
             <button href="/login">Cadastre-se</button>
           </form>
         </div>
+        <StandardAlert />
       </div>
     );
   }
