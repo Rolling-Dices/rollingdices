@@ -1,0 +1,39 @@
+#sidebar {
+    height: 100%;
+    background-color: #d0ced9;
+    width: 300px;
+    border: 1px solid #d0ced9;
+    position: fixed;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#logo {
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 40px 0;
+}
+  
+#logo img {
+    width: 300px;
+    height: auto;
+}
+
+.sidenav {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.sidenav, span {
+    display: block;
+    color: #24222c;
+    padding-bottom: 10px;
+}
+
+#sheets {
+}
+
+.column {
+}
