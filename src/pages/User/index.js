@@ -1,31 +1,266 @@
-import React, { Component } from 'react';
-import logo from '../Login/Logo.png';
+import React from 'react';
 import './styles.css';
 
-export class Login extends Component {
+export class User extends React.Component {
     render() {
         return (
-            <div className="flex-container">
-                <div id="sidebar">
-                    <aside>                    
-                        <div id="logo">
-                            <img src={logo} alt="logo"/>
-                        </div>
-                        <div className="sidenav">
-                            <span>Fichas</span>
-                            <span>Mesas</span>
-                            <span>Something</span>
-                            <span>Somesomething</span>
-                            <span>Some</span>
-                        </div>
-                    </aside>
+            <div id="user">
+                <div id="user-info">
+                    <div id="user-photo">
+                        <img src="https://api.adorable.io/avatars/285/rollingdices-profile.png" alt=""/>
+                    </div>
+                    <div id="user-profile">
+                        <h1>Nome do Usuario</h1>
+                    </div>
+                    <div id="user-options">
+                        <ul>
+                            <li><button href="/">Perfil</button></li>
+                            <li><button href="/">Fichas</button></li>
+                            <li><button href="/">Compras</button></li>
+                            <li><button href="/">Sair</button></li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="sheets">
-                    
+                <div id="user-tables">
+                    <h1>Mesas</h1>
+                    <div id="tables">
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <div className="table">
+                                        <div className="table-photo"/>
+                                        <div className="table-info">
+                                            <h2>Nome da mesa</h2>
+                                            <h3>D<strong>&</strong>D</h3>
+                                            <h3>Autor: Nome do autor</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
+                
             </div>
         )
     }
 }
 
-export default Login;
+export default User;
