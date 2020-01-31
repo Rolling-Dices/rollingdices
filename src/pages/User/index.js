@@ -257,9 +257,8 @@ export class User extends React.Component {
                         </ul>
                     </div>
                 </div>
-                
             </div>
-        )
+        );
     }
 }
 

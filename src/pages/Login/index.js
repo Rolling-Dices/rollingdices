@@ -1,11 +1,11 @@
 import React from 'react';
 import StandardAlert from '../../components/Alerts/StandardAlert';
 
-import logo from './Logo.png'
+import logo from './Logo.png';
 
 import './styles.css';
 
-export default class Login extends React.Component{
+export default class Login extends React.Component {
 
   render() {
     return (
@@ -19,25 +19,25 @@ export default class Login extends React.Component{
               <label htmlFor="email">E-mail</label>
               <input
                 type="email"
-                name="email" 
-                id="email" 
+                name="email"
+                id="email"
                 required
               />
             </div>
             <div className="input-block">
               <label htmlFor="password">Senha</label>
-              <input 
+              <input
                 type="password"
-                name="password" 
-                id="password" 
+                name="password"
+                id="password"
                 required
               />
             </div>
             <div className="input-group">
-              <input 
+              <input
                 type="checkbox"
-                name="checkbox" 
-                id="checkbox" 
+                name="checkbox"
+                id="checkbox"
               />
               <label htmlFor="password">Lembrar senha ?</label>
             </div>
