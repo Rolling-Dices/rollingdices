@@ -1,0 +1,78 @@
+
+#tables-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tables {
+  padding: 20px;
+  height: 92%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#tables::-webkit-scrollbar-track {
+  background-color: #24222c;
+}
+#tables::-webkit-scrollbar {
+  width: 6px;
+  background: #d0ced9;
+}
+
+#tables::-webkit-scrollbar-thumb {
+  background: #d0ced9;
+  border-radius: 10px;
+}
+
+#tables ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+}
+
+.table {
+  height: 200px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.table h2, h3 {
+  font-weight: unset; 
+}
+
+.table:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  background: #d0ced9;
+  color: #24222c;
+}
+
+.table .table-photo {
+  background-image: url(https://cdn.thegamesdb.net/images/original/fanart/284-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40%;
+  width: 100%;
+}
+
+.table-info {
+  padding: 10px;
+}
+
+.table-info h3 {
+  margin: 10px 0;
+}
+
+.table-info strong {
+  font-family: Verdana;
+}
+
+@media (max-width: 992px) { 
+  #tables ul {
+    grid-template-columns: 1fr;
+  }
+}

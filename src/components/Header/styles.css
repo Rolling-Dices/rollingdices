@@ -1,0 +1,13 @@
+#header {
+  width: 100%;
+  background: #24222c;
+  padding: 14px 20px;
+  height: 6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header h2 {
+  font-weight: unset;
+  display: inline;
+}
